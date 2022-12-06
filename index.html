@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Data TYpes</title>
+
+        <link rel="stylesheet" href="./css/style.css" />
+        <style>
+            ul.myul {
+                list-style: none;
+            }
+        </style>
+        <script src="./js/script.js"></script>
+        <script></script>
+        <script></script>
+    </head>
+    <body>
+        <h1>Javascript Data Types</h1>
+        <ul class="myul">
+            <li>String "hii" / 'good morning' / `everyone`</li>
+            <!--3 ways to write string in js.-->
+
+            <li>Number 1,2,3,4,5</li>
+            <li>Object {}</li>
+            <!--way to write js object daya type-->
+        </ul>
+
+        <p id="news1"></p>
+        <p data-news2="news2"></p>
+
+        <script>
+            /*
+            The proposal involves the  PAN as a unique identifier for entering the National Single Window System (NSWS) instead of
+            */
+
+            let news1 = {
+                //JS object
+                //1. Property:Value,
+                w1: "The ", // String-using ""
+                w2: "proposal ",
+                w3: `involves `, //string -using `` backtick
+                w4: "the ",
+                w5: "use ",
+                w6: "of ",
+                w7: "PAN ",
+                w8: "as ",
+                w9: `a `,
+                w10: `unique `,
+                w11: `identifire `, //string using backtick
+                w12: `for `,
+                w13: `entering `,
+                w14: `the `,
+                w15: `National `,
+                w16: `Single `,
+                w17: `Window `,
+                w18: `System (NEWS) `,
+                w19: `instead `,
+                w20: `of `,
+                w21: " using ",
+                w22: "other  ",
+                w23: "identifires ",
+                w24: "for ",
+                w25: "central ",
+                w26: " and ",
+                w27: " state-level",
+                w28: "regulatory ",
+                w29: " approvals, ",
+                w30: " Piyush ",
+                w31: " Goyal ",
+                w32: " said. ",
+
+                //2.
+            }; //
+            let news2 = {
+                //1. Property:Value,
+                //2.
+            }; //
+
+            //There are 4 ways to display the output
+
+            //Testing temproary
+            // Value     object.property
+            let n1 =
+                news1.w1 +
+                news1.w2 +
+                news1.w3 +
+                news1.w4 +
+                news1.w5 +
+                news1.w6 +
+                news1.w7 +
+                news1.w8 +
+                news1.w9 +
+                news1.w10 +
+                news1.w11 +
+                news1.w12 +
+                news1.w13 +
+                news1.w14 +
+                news1.w15 +
+                news1.w16 +
+                news1.w17 +
+                news1.w18 +
+                news1.w19 +
+                news1.w20 +
+                news1.w21 +
+                news1.w22 +
+                news1.w23 +
+                news1.w24 +
+                news1.w25 +
+                news1.w26 +
+                news1.w27 +
+                news1.w28 +
+                news1.w29 +
+                news1.w30 +
+                news1.w31 +
+                news1.w32;
+
+            console.log(n1);
+
+            let y = document.getElementById("news1");
+
+            y.innerHTML = "Hi";
+            y.style.color = "green";
+            y.innerHTML = n1;
+
+            const n2 = news2.w1 + " " + news2.w2 + " " + news2.w3;
+
+            console.log(n2);
+
+            var x = document.querySelector('p[data-news2="news2"]');
+            x.innerHTML = n2;
+            x.style.color = "red";
+
+            var $a = 10;
+            var $b = 20;
+
+            console.log($a + $b);
+        </script>
+    </body>
+</html>
